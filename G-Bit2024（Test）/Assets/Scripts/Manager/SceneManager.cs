@@ -7,11 +7,11 @@ using UnityEngine;
 /// </summary>
 public class SceneManager : MonoBehaviour
 {
-    public static SceneManager Instance;
+    public static SceneManager Instance;    
 
-    private Transform grid;
+    private Transform grid; //地图挂载处
 
-    public List<SceneBase> mapList;
+    public List<SceneBase> mapList; //场景储存
 
     private void Awake()
     {
@@ -19,7 +19,7 @@ public class SceneManager : MonoBehaviour
 
         grid = GameObject.Find("Grid").transform;
     }
-
+    //初始化关卡
     public SceneBase InitTilemap<T>(string sceneName) where T : SceneBase
     {
         SceneBase scene =FindScene(sceneName);
@@ -40,7 +40,7 @@ public class SceneManager : MonoBehaviour
         }
         return scene;
     }
-
+    //尝试在集合里面找场景
     public SceneBase FindScene(string sceneMap)
     {
         for(int i = 0; i < mapList.Count; ++i)

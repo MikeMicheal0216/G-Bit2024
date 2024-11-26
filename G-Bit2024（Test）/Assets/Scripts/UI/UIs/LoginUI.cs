@@ -22,19 +22,13 @@ public class LoginUI : UIBase
     //开始新游戏
     private void OnStartBtClick(GameObject @object, PointerEventData data)
     {
-        Hide();
+        Destroy();
 
-        SceneManager.Instance.InitTilemap<FirstScene>("FirstScene");
+        GameUnitManager.Instance.UnitScene<FirstScene>("FirstScene");       //初始化关卡
 
-        SceneManager.Instance.InitTilemap<BackGround>("BackGround");
-        //临时实例化玩家
-        GameObject pla=Instantiate(Resources.Load("Player/"+"Player"),null) as GameObject;
+        GameUnitManager.Instance.UnitPlayer();      //初始化玩家
 
-        pla.transform.position = new Vector3(0,0,0);
-
-        pla.transform.localScale= new Vector3(3f,3f,3f);
-
-        pla.name = "Player";
+        GameUnitManager.Instance.UnitScenePoint();      //初始化场景转折点
 
         cameramain.enabled=true;
 

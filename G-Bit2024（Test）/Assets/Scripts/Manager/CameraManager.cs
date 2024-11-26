@@ -2,81 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 /// <summary>
-/// ÉãÏñ»ú¿ØÖÆ£¨ÁÙÊ±£©
+/// æ‘„åƒæœºæ§åˆ¶
 /// </summary>
 public class CameraManager : MonoBehaviour
 {
-    public Transform player;
-    //public Vector3 offset;
-    //public float smoothSpeed = 0.125f;
+    public Transform player;     // ä¸»è§’çš„Transform
 
-    //// ¶¨Òå¶à¸öÉãÏñ»úÇøÓò
-    //public CameraArea[] cameraAreas;
-
-    //private CameraArea currentArea;
-
-    private void Start()
+    void Start()
     {
         player = GameObject.Find("Player").transform;
+
         Camera.main.orthographicSize = 10.5f;
+
+        Camera.main.transform.position = new Vector3(-0.5f, 5.5f, -10f);
     }
-    private void Update()
-    {
-
-        //if (player == null)
-        //{
-        //     player = GameObject.Find("Player").transform;
-        //}
-
-        transform.position = new Vector3(player.position.x,player.position.y,transform.position.z);
-    }
-    //void LateUpdate()
-    //{
-    //    if (currentArea == null)
-    //    {
-    //        // ³õÊ¼»¯µ±Ç°ÇøÓò
-    //        currentArea = GetCurrentArea();
-    //    }
-    //    else
-    //    {
-    //        // ¼ì²éÊÇ·ñĞèÒªÇĞ»»ÇøÓò
-    //        CameraArea newArea = GetCurrentArea();
-    //        if (newArea != currentArea)
-    //        {
-    //            currentArea = newArea;
-    //        }
-    //    }
-
-    //    // ¼ÆËãÄ¿±êÎ»ÖÃ
-    //    Vector3 desiredPosition = player.position + offset;
-
-    //    // ÏŞÖÆÄ¿±êÎ»ÖÃÔÚµ±Ç°ÇøÓòµÄ±ß½çÄÚ
-    //    desiredPosition.x = Mathf.Clamp(desiredPosition.x, currentArea.minPosition.x, currentArea.maxPosition.x);
-    //    desiredPosition.y = Mathf.Clamp(desiredPosition.y, currentArea.minPosition.y, currentArea.maxPosition.y);
-    //    desiredPosition.z = Mathf.Clamp(desiredPosition.z, currentArea.minPosition.z, currentArea.maxPosition.z);
-
-    //    // Æ½»¬ÒÆ¶¯ÉãÏñ»ú
-    //    Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
-    //    transform.position = smoothedPosition;
-    //}
-
-    //public CameraArea GetCurrentArea()
-    //{
-    //    foreach (CameraArea area in cameraAreas)
-    //    {
-    //        if (player.position.x >= area.minPosition.x && player.position.x <= area.maxPosition.x &&
-    //            player.position.y >= area.minPosition.y && player.position.y <= area.maxPosition.y)
-    //        {
-    //            return area;
-    //        }
-    //    }
-    //    return null;
-    //}
 }
-
-//[System.Serializable]
-//public class CameraArea
-//{
-//    public Vector3 minPosition;
-//    public Vector3 maxPosition;
-//}

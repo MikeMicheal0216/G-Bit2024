@@ -19,11 +19,12 @@ public class BackGround : SceneBase
     private void Start()
     {
         BackSize(backSpriteRenderer);
+        //将后景与相机同步一次
+        transform.position = new Vector3(currentCamera.transform.position.x, currentCamera.transform.position.y, transform.position.z);
+        //后景与相机父子关系（避免抖动）
+        transform.SetParent(currentCamera.transform);
     }
-    private void Update()
-    {
-        transform.position=new Vector3(currentCamera.transform.position.x,currentCamera.transform.position.y,transform.position.z);
-    }
+    //后景大小与相机对齐
     public void BackSize(SpriteRenderer sprite)
     {
         float cameraHeight = currentCamera.orthographicSize * 2;
