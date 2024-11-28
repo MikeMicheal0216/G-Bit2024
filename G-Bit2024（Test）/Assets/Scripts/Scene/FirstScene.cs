@@ -17,7 +17,7 @@ public class FirstScene : SceneBase
 
         player = GameObject.Find("Player").transform;
 
-        player.GetComponent<PlayerMove>().enabled = false;  //独白时关闭移动脚本
+        player.GetComponent<PlayerControl>().enabled = false;  //独白时关闭移动脚本
 
         player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;     //速度为零
 

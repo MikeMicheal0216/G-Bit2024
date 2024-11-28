@@ -43,7 +43,7 @@ public class SoliloquyUI : UIBase
         {
             if (list_index == soliloquy_Lists.Count)
             {
-                player.GetComponent<PlayerMove>().enabled = true;       //独白完成激活移动脚本
+                player.GetComponent<PlayerControl>().enabled = true;       //独白完成激活移动脚本
 
                 Hide();
 

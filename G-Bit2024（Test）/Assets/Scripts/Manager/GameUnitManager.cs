@@ -23,8 +23,6 @@ public class GameUnitManager : MonoBehaviour
 
         pla.transform.position = new Vector3(0, 0, 0);
 
-        pla.transform.localScale = new Vector3(3f, 3f, 3f);
-
         pla.name = "Player";
 
         pla.tag = "Player";
