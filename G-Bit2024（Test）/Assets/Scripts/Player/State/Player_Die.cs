@@ -1,18 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Player_Die : MonoBehaviour
+[CreateAssetMenu(menuName = "Data/PlayerState/Die", fileName = "Player_Die")]
+public class Player_Die : PlayerState
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public override void Enter()
     {
-        
+        animator.Play("Player_Die");
+
+        //µ˜”√À¿Õˆ¥•∑¢
+
+        player.Death();
     }
 }

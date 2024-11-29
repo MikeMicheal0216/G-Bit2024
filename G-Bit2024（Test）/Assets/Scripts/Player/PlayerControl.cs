@@ -81,63 +81,12 @@ public class PlayerControl : MonoBehaviour
         
         //Ç½Ìå¼ì²â
         WallCheck();
-
-        //ÒÆ¶¯
-        //if (!isDashing&&!isWallClimb&&isGround&&hori!=0)
-        //{  
-        //    Movement();  
-        //}
-
-        //ÌøÔ¾
-        //if ((isGround||jump_Num<max_jump_num)&&Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    Jump(Vector2.up);
-
-        //}
-        // if (isWallClimb && Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    WallJump();
-
-        //}
-
-
         //Ç½ÅÀ
         if (Input.GetKey(KeyCode.LeftControl) && (isLeftWall || isRightWall))
         {
             isWallClimb = true;
-        }
-            //    rig.gravityScale = 0;
-
-            //    if (ver > 0)
-            //    {
-            //        WallClimb();
-
-            //    }
-            //    else if (ver<0)
-            //    {
-            //        WallSlide();
-
-            //    }
-            //    else
-            //    {
-            //        WallGrab();
-
-            //    }
-            //}
-            //³å´Ì
-            //if (Input.GetKeyDown(KeyCode.LeftShift)&&canDash&&!isWallClimb)
-            //{
-            //    if (dash_Num < max_dash_num)
-            //    {
-            //        StartCoroutine(Dash());
-            //    }  
-            //}
-            //else
-            //{
-            //    isWallClimb = false;
-            //    rig.gravityScale = 3f;
-            //}
-        }
+        }   
+    }
     //Ç½Ìå¼ì²â
     public void WallCheck()
     {
@@ -256,5 +205,10 @@ public class PlayerControl : MonoBehaviour
         canDash = true;
         dash_Num++;
         StopCoroutine(Dash());
+    }
+    //ËÀÍöÂß¼­
+    public void Death()
+    {
+
     }
 }
