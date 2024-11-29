@@ -15,6 +15,10 @@ public class Cells : MonoBehaviour
     //为了防止重复触发，定义一个布尔值
     private bool isTriggered=false;
 
+    private void Start()
+    {
+        anim = GetComponent<Animation>();
+    }
     private void OnTriggerEnter(Collider other)
     {
         //碰撞检测🔍
@@ -39,7 +43,7 @@ public class Cells : MonoBehaviour
 
     }
 
-    private IEnumerator GameOverAfterDelay()
+    IEnumerator GameOverAfterDelay()
     {
         yield return new WaitForSeconds(animTime); // 等待动画播放时间
         // 切换到游戏结束场景代码放在下面👇

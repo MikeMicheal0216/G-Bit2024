@@ -3,18 +3,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
+using static SaveManager;
 /// <summary>
-/// 开始界面（等存档写了，再修改继续游戏按钮的显隐）
+/// 开始界面
 /// </summary>
 public class LoginUI : UIBase
 {
     public CameraManager cameramain;
+
+    protected Save_Data currentData;
+
+    public Button button;
     // Start is called before the first frame update
     void Start()
     {
+        currentData = SaveDataSystem.ReadFromJson<Save_Data>("data_json")??null;
+
+        button = transform.Find("BtList/ContinueBt").GetComponent<Button>();
+
         Register("BtList/StartBt").onclick = OnStartBtClick;
-        //Register("BtList/ContinueBt").onclick = OnContinueBtClick;
-        //Register("BtList/SettingsBt").onclick = OnSettingsBtClick;
+        if (currentData == null)
+        {
+            button.enabled = false;
+        }
+        else
+        {
+            button.enabled = true;
+            Register("BtList/ContinueBt").onclick = OnContinueBtClick;
+        }
+        Register("BtList/SettingsBt").onclick = OnSettingsBtClick;
         Register("BtList/ExitBt").onclick = OnExitBtClick;
 
         cameramain=GameObject.Find("Main Camera").GetComponent<CameraManager>();
@@ -24,11 +42,17 @@ public class LoginUI : UIBase
     {
         Destroy();
 
-        GameUnitManager.Instance.UnitScene<FirstScene>("FirstScene");       //初始化关卡
+        GameUnitManager.Instance.UnitScene<FirstScene>("FirstScene");       //初始化场景
 
         GameUnitManager.Instance.UnitPlayer();      //初始化玩家
 
         GameUnitManager.Instance.UnitScenePoint();      //初始化场景转折点
+
+        GameUnitManager.Instance.UnitSavePoint();       //初始化存档点
+
+        GameUnitManager.Instance.UnitPlayer_A();        //初始化技能果实
+
+        GameUnitManager.Instance.UniitLight();      //初始化灵光
 
         cameramain.enabled=true;
 

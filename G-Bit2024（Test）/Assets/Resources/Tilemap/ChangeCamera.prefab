@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3912332040321877151}
   m_Layer: 0
   m_Name: "2\u30017"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 8471880659231262741}
   m_Layer: 0
   m_Name: "8\u30019"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 4952059824188517814}
   m_Layer: 0
   m_Name: "2\u30013"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 4216552997884316965}
   m_Layer: 0
   m_Name: "2\u300114"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -381,7 +381,7 @@ GameObject:
   - component: {fileID: 4698678511091101533}
   m_Layer: 0
   m_Name: "10\u300111"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 7706206544127645811}
   m_Layer: 0
   m_Name: "1 \u300113  (1)"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -565,7 +565,7 @@ GameObject:
   - component: {fileID: 344294073956025026}
   m_Layer: 0
   m_Name: "4\u300112 (2)"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -657,7 +657,7 @@ GameObject:
   - component: {fileID: 8787922389673608542}
   m_Layer: 0
   m_Name: "5\u300110"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -749,7 +749,7 @@ GameObject:
   - component: {fileID: 2593331174743004642}
   m_Layer: 0
   m_Name: "8\u30019\uFF082\uFF09"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -841,7 +841,7 @@ GameObject:
   - component: {fileID: 1356002045021218530}
   m_Layer: 0
   m_Name: "9\u300110"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -933,7 +933,7 @@ GameObject:
   - component: {fileID: 5311173759683765893}
   m_Layer: 0
   m_Name: "4\u300112"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1025,7 +1025,7 @@ GameObject:
   - component: {fileID: 5193935981384623265}
   m_Layer: 0
   m_Name: "12 \u300113"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1117,7 +1117,7 @@ GameObject:
   - component: {fileID: 8699044105882321057}
   m_Layer: 0
   m_Name: "7\u30018"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1209,7 +1209,7 @@ GameObject:
   - component: {fileID: 393623488769387033}
   m_Layer: 0
   m_Name: "4\u30019"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1301,7 +1301,7 @@ GameObject:
   - component: {fileID: 641084635175102680}
   m_Layer: 0
   m_Name: "14\u300115"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1393,7 +1393,7 @@ GameObject:
   - component: {fileID: 5351902894088927571}
   m_Layer: 0
   m_Name: "4\u30015"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1485,7 +1485,7 @@ GameObject:
   - component: {fileID: 5185563639289194545}
   m_Layer: 0
   m_Name: "1\u30014"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1577,7 +1577,7 @@ GameObject:
   - component: {fileID: 2847263807917444497}
   m_Layer: 0
   m_Name: "1 \u300113 "
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1669,7 +1669,7 @@ GameObject:
   - component: {fileID: 1224043818567573802}
   m_Layer: 0
   m_Name: "4\u300112 (1)"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1759,7 +1759,7 @@ GameObject:
   - component: {fileID: 6691803082683589619}
   m_Layer: 0
   m_Name: ChangeCamera
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1813,7 +1813,7 @@ GameObject:
   - component: {fileID: 7617712609477272640}
   m_Layer: 0
   m_Name: "1\u30012"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1905,7 +1905,7 @@ GameObject:
   - component: {fileID: 209234268430792174}
   m_Layer: 0
   m_Name: "5\u30016"
-  m_TagString: Untagged
+  m_TagString: Cam_Change
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
