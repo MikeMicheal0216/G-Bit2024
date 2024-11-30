@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|d:\\unity project\\clone\\g-bit2024\\g-bit2024\uFF08test\uFF09\\assets\\scripts\\datasave\\lightsave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datasave\\lightsave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|d:\\unity project\\clone\\g-bit2024\\g-bit2024\uFF08test\uFF09\\assets\\scripts\\player\\new\\playercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\new\\playercontrol2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|d:\\unity project\\clone\\g-bit2024\\g-bit2024\uFF08test\uFF09\\assets\\scripts\\ui\\uis\\loginui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uis\\loginui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|d:\\unity project\\clone\\g-bit2024\\g-bit2024\uFF08test\uFF09\\assets\\scripts\\manager\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\savemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\assets\\scripts\\save\\savedatasystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\save\\savedatasystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|d:\\unity project\\clone\\g-bit2024\\g-bit2024\uFF08test\uFF09\\assets\\scripts\\datasave\\jump2_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datasave\\jump2_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|d:\\unity project\\clone\\g-bit2024\\g-bit2024\uFF08test\uFF09\\assets\\scripts\\datasave\\new_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datasave\\new_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\assets\\scripts\\ui\\uis\\loginui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uis\\loginui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\assets\\scripts\\manager\\gameunitmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\gameunitmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\assets\\scripts\\player\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\assets\\scripts\\player\\playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|d:\\unity project\\clone\\g-bit2024\\g-bit2024\uFF08test\uFF09\\assets\\scripts\\player\\state\\player_wallgrab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\state\\player_wallgrab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|d:\\unity project\\clone\\g-bit2024\\g-bit2024\uFF08test\uFF09\\assets\\scripts\\player\\state\\player_up.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\state\\player_up.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|d:\\unity project\\clone\\g-bit2024\\g-bit2024\uFF08test\uFF09\\assets\\scripts\\player\\state\\player_down.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\state\\player_down.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\assets\\scripts\\manager\\camera control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\camera control.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|d:\\unity project\\clone\\g-bit2024\\g-bit2024\uFF08test\uFF09\\assets\\scripts\\player\\state\\player_move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C0D1F70-8F0D-F1D3-9B13-97BC20275082}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\state\\player_move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +58,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LightSave.cs",
-              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\DataSave\\LightSave.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DataSave\\LightSave.cs",
-              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\DataSave\\LightSave.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DataSave\\LightSave.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T17:12:38.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginUI.cs",
-              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\UI\\UIs\\LoginUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIs\\LoginUI.cs",
-              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\UI\\UIs\\LoginUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\UIs\\LoginUI.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAJAAAAAAAAAA==",
+              "Title": "Jump2_A.cs",
+              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\DataSave\\Jump2_A.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DataSave\\Jump2_A.cs",
+              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\DataSave\\Jump2_A.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DataSave\\Jump2_A.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T17:08:25.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "New_A.cs",
-              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\DataSave\\New_A.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DataSave\\New_A.cs",
-              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\DataSave\\New_A.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DataSave\\New_A.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T14:39:21.469Z",
+              "WhenOpened": "2024-11-30T14:14:41.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SaveManager.cs",
-              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Manager\\SaveManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\SaveManager.cs",
-              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Manager\\SaveManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Manager\\SaveManager.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwBwAAAAYAAAAAAAAAA==",
+              "Title": "New_A.cs",
+              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\DataSave\\New_A.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DataSave\\New_A.cs",
+              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\DataSave\\New_A.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DataSave\\New_A.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T03:31:05.925Z",
+              "WhenOpened": "2024-11-30T14:14:25.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Player_Down.cs",
+              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Player\\State\\Player_Down.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\State\\Player_Down.cs",
+              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Player\\State\\Player_Down.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\State\\Player_Down.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvw4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:22:43.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Player_Up.cs",
+              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Player\\State\\Player_Up.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\State\\Player_Up.cs",
+              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Player\\State\\Player_Up.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\State\\Player_Up.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:20:38.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Player_Move.cs",
+              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Player\\State\\Player_Move.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\State\\Player_Move.cs",
+              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Player\\State\\Player_Move.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\State\\Player_Move.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:14:09.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Player_WallGrab.cs",
+              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Player\\State\\Player_WallGrab.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\State\\Player_WallGrab.cs",
+              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Player\\State\\Player_WallGrab.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\State\\Player_WallGrab.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:11:07.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerControl2.cs",
+              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Player\\New\\PlayerControl2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\New\\PlayerControl2.cs",
+              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Player\\New\\PlayerControl2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\New\\PlayerControl2.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAkwNIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:17:33.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerStateMachine.cs",
+              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Player\\PlayerStateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerStateMachine.cs",
+              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Player\\PlayerStateMachine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerStateMachine.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAtwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:23:32.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerControl.cs",
+              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Player\\PlayerControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerControl.cs",
+              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Player\\PlayerControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerControl.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAADwv48AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:14:52.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Camera Control.cs",
+              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Manager\\Camera Control.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\Camera Control.cs",
+              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Manager\\Camera Control.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\Camera Control.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T07:16:17.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameUnitManager.cs",
+              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Manager\\GameUnitManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\GameUnitManager.cs",
+              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Manager\\GameUnitManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\GameUnitManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T06:37:57.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SaveDataSystem.cs",
-              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Save\\SaveDataSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Save\\SaveDataSystem.cs",
-              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\Save\\SaveDataSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Save\\SaveDataSystem.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Title": "LoginUI.cs",
+              "DocumentMoniker": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\UI\\UIs\\LoginUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIs\\LoginUI.cs",
+              "ToolTip": "D:\\Unity project\\Clone\\G-Bit2024\\G-Bit2024\uFF08Test\uFF09\\Assets\\Scripts\\UI\\UIs\\LoginUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\UIs\\LoginUI.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwDAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T14:00:44.972Z",
+              "WhenOpened": "2024-11-30T05:28:19.169Z",
               "EditorCaption": ""
             },
             {

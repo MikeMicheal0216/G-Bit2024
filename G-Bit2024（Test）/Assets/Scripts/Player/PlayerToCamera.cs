@@ -10,12 +10,9 @@ public class PlayerToCamera : MonoBehaviour
 
     public Vector3 playerPosition;
 
-    private void Start()
-    {
-        cameraPosition = Camera.main.transform.position;
-    }
     private void OnTriggerExit2D(Collider2D collision)
     {
+        cameraPosition = Camera.main.transform.position;
         if (collision.tag.Equals("Cam_Change"))
         {
             Vector3 a_point=collision.GetComponent<CamChange>().A_point;

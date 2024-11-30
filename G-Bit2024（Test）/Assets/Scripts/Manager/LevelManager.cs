@@ -5,9 +5,9 @@ using UnityEngine;
 /// <summary>
 /// 关卡加载
 /// </summary>
-public class SceneManager : MonoBehaviour
+public class LevelManager : MonoBehaviour
 {
-    public static SceneManager Instance;    
+    public static LevelManager Instance;    
 
     private Transform grid; //地图挂载处
 
@@ -15,8 +15,10 @@ public class SceneManager : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
-
+        Instance = this;  
+    }
+    private void Start()
+    {
         grid = GameObject.Find("Grid").transform;
     }
     //初始化关卡

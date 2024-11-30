@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 5708168200797304240}
   - component: {fileID: 4144973594922339619}
   - component: {fileID: 995256758921615728}
-  - component: {fileID: -6250695972049507908}
-  - component: {fileID: 5603342413944581286}
   - component: {fileID: 3395407742726146257}
   - component: {fileID: 3078957818923631198}
   - component: {fileID: 7953870055410357771}
+  - component: {fileID: -1449807978515294676}
+  - component: {fileID: 9191670382624516736}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -117,60 +117,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &-6250695972049507908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1652034311555449140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97380c11370fd71408eb977222f787a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraPosition: {x: 0, y: 0, z: 0}
-  playerPosition: {x: 0, y: 0, z: 0}
---- !u!114 &5603342413944581286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1652034311555449140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05ea0c05e9d56054f9092a785e9b69e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wallOffset: {x: 0.64, y: 0, z: 0}
-  groundOffse: {x: 0, y: 0, z: 0}
-  findPosition: {x: 0.02, y: -0.71, z: 0}
-  isLeftWall: 0
-  isRightWall: 0
-  isSquating: 0
-  canMove: 0
-  canJump: 0
-  isGround: 0
-  isDie: 0
-  canDash: 1
-  isDashing: 0
-  dashingPower: 20
-  dashingTime: 0.1
-  noDash: 1
-  dirDash: {x: 0, y: 0}
-  ver: 0
-  hori: 0
-  isWallClimb: 0
-  climbSpeed: 6
-  playerInput: 0
-  jump_Num: 0
-  max_jump_num: 2
-  dash_Num: 0
-  max_dash_num: 2
-  wallLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!70 &3395407742726146257
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -250,3 +196,56 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0ab238a53e3de7e449fa2520ab6a8fea, type: 2}
   - {fileID: 11400000, guid: be72e7dbd0495554889950f5d6cdd728, type: 2}
   - {fileID: 11400000, guid: f3d882da6db1f2e4a97ff40fd663b887, type: 2}
+--- !u!114 &-1449807978515294676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652034311555449140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e0238e4b8588d4592fbf8fcd6fdd58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _stats: {fileID: 11400000, guid: 3c51735fa576ad54b81324dc8520ec61, type: 2}
+--- !u!114 &9191670382624516736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652034311555449140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ea0c05e9d56054f9092a785e9b69e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallOffset: {x: 0, y: 0, z: 0}
+  groundOffse: {x: 0, y: 0, z: 0}
+  findPosition: {x: 0, y: 0, z: 0}
+  isLeftWall: 0
+  isRightWall: 0
+  isSquating: 0
+  canMove: 1
+  canJump: 0
+  isGround: 0
+  isDie: 0
+  canDash: 1
+  isDashing: 0
+  dashingPower: 20
+  dashingTime: 0.1
+  noDash: 1
+  dirDash: {x: 0, y: 0}
+  ver: 0
+  hori: 0
+  isWallClimb: 0
+  climbSpeed: 6
+  playerInput: 0
+  jump_Num: 0
+  max_jump_num: 2
+  dash_Num: 0
+  max_dash_num: 2
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 0

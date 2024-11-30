@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TarodevController;
 using UnityEngine;
 [CreateAssetMenu(menuName = "Data/PlayerState/Move", fileName = "Player_Move")]
 public class Player_Move : PlayerState
@@ -30,12 +31,13 @@ public class Player_Move : PlayerState
         {
             stateMachine.SwithState(typeof(Player_Squat));
         }
+        if (Input.GetKeyDown(KeyCode.LeftControl)&&(stateMachine.gameObject.GetComponent<PlayerControl>().isLeftWall|| stateMachine.gameObject.GetComponent<PlayerControl>().isRightWall))
+        {
+            stateMachine.SwithState(typeof(Player_WallGrab));
+        }
     }
     public override void PhysicaUpdate()
     {
-        if (player.hori!=0)
-        {
-            player.Movement();
-        }
+        player.GetComponent<TarodevController.PlayerControl2>().ApplyMovement();
     }
 }
