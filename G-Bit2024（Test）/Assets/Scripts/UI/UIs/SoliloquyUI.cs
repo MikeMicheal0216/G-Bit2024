@@ -18,14 +18,12 @@ public class SoliloquyUI : UIBase
 
     public Transform player;
 
-    private void Awake()
-    {
+    private void Start()
+    { 
         next_word = GetComponentInChildren<Button>();
 
         soliloquyUI = GameObject.Find("BG/soliloquy").GetComponent<TextMeshProUGUI>();
-    }
-    private void Start()
-    {
+
         Register("NextBt").onclick = OnNextBtClick;
 
         soliloquyUI.text = soliloquy_Lists[0];

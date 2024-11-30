@@ -15,7 +15,7 @@ public class FirstScene : SceneBase
     {
         UIManager.Instance.ShowUI<SoliloquyUI>("SoliloquyUI");
 
-        player = GameObject.Find("Player").transform;
+        player = GameObject.Find("Player").transform??null;
 
         player.GetComponent<PlayerControl>().enabled = false;  //独白时关闭移动脚本
 

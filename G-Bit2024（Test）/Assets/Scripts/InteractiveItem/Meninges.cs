@@ -10,29 +10,33 @@ public class Meninges : MonoBehaviour
     public float appearDuration=2f;
     //消失时间👇
     public float disappearDuration=2f;
-    
-    //一直在运行
-    private bool isRunning=true;
 
+    public bool isRun=true;
+
+    public SpriteRenderer new_renderer;
+    public BoxCollider2D new_collider;
     void Start()
     {
+        new_renderer = GetComponent<SpriteRenderer>();
+        new_collider = GetComponent<BoxCollider2D>();
         //从开始就一直不停循环出现和消失
-        RunFlicker();
+        StartCoroutine(RunFlicker());
     }
 
-    private async void RunFlicker()
+    IEnumerator RunFlicker()
     {
-        while (isRunning)
+       while (isRun)
         {
             //出现的逻辑👇
-            gameObject.SetActive(true);
-            await Task.Delay((int)appearDuration*1000);
-            
+            new_renderer.enabled = true;
+            new_collider.enabled = true;
+            yield return new WaitForSeconds(appearDuration);
+
             //消失的逻辑👇
-            gameObject.SetActive(false);
-            await Task.Delay((int)appearDuration*1000);
-            
-        }
+            new_renderer.enabled = false;
+            new_collider.enabled = false;
+            yield return new WaitForSeconds(disappearDuration);
+        } 
     }
 
 }

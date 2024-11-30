@@ -3,51 +3,49 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
+using static SaveManager;
 
 //免疫细胞的代码
 public class Cells : MonoBehaviour
 {
-    //获取动画组件
-    public Animation anim;
-    //这里假设细胞吞噬玩家的动画是2s，但是实际可能有变化💡💡💡
-    public float animTime=2f;
-    
-    //为了防止重复触发，定义一个布尔值
-    private bool isTriggered=false;
-
+    public Transform pla;
+    public bool isDie;
+    public Save_Data sdata;
     private void Start()
     {
-        anim = GetComponent<Animation>();
+        isDie = false;
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        //碰撞检测🔍
-        if (other.CompareTag("Player")&&!isTriggered)
+        if (collision.gameObject.tag.Equals("Player"))
         {
-            isTriggered = true;
+            pla = collision.transform;
             //碰撞触发之后的函数👇
-            HandleCollision();
+            StartCoroutine(GameOverAfterDelay());
         }
     }
-
-    private void HandleCollision()
-    {
-        if (anim != null)
-        {
-            //如果有这个动画的话，就播放
-            anim.Play();
-        }
-
-        //游戏结束的逻辑函数👇
-        StartCoroutine(GameOverAfterDelay());
-
-    }
-
     IEnumerator GameOverAfterDelay()
     {
-        yield return new WaitForSeconds(animTime); // 等待动画播放时间
-        // 切换到游戏结束场景代码放在下面👇
-        //现在还没有这个💥💥💥💥💥💥
-        
+        pla.GetComponent<Animator>().Play("Player_Die");
+        yield return new WaitForSeconds(1f); // 等待动画播放时间
+        Time.timeScale = 0f;
+        if (pla != null)
+        {
+            Destroy(pla.gameObject);
+        }
+        //复活
+        sdata = SaveManager.instance.GetData();
+        GameObject player = Instantiate(Resources.Load("Player/Player"), null) as GameObject;
+
+        Vector3 spawnPosition = sdata.savePoint;
+
+        player.transform.position = spawnPosition;
+
+        player.name = "Player";
+
+        player.tag = "Player";
+        Time.timeScale = 1f;
+        yield return null;
+        StopCoroutine(GameOverAfterDelay());
     }
 }

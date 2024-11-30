@@ -14,13 +14,16 @@ public class GameUnitManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-        sdata = SaveManager.instance.GetData();
+    }
+    private void Start()
+    {
+        sdata = SaveManager.instance.GetData() ?? null;
     }
     public void UnitScene<T>(string scenename)where T:SceneBase
     {
-        SceneManager.Instance.InitTilemap<T>(scenename);
+        LevelManager.Instance.InitTilemap<T>(scenename);
 
-        SceneManager.Instance.InitTilemap<BackGround>("BackGround");
+        //LevelManager.Instance.InitTilemap<BackGround>("BackGround");
     }
     //实例化玩家(需要存数据)
     public void UnitPlayer()
@@ -66,12 +69,43 @@ public class GameUnitManager : MonoBehaviour
         point.name = "Light_Y";
 
     }
+    public void UnitBrain()
+    {
+        GameObject point = Instantiate(Resources.Load("Tilemap/BrainParent"), null) as GameObject;
+
+        point.name = "BrainParent";
+
+    }
+    public void UnitMeninges()
+    {
+        GameObject point = Instantiate(Resources.Load("Tilemap/MeningesParent"), null) as GameObject;
+
+        point.name = "MeningesParent";
+    }
+    public void UnitSarcoma()
+    {
+        GameObject point = Instantiate(Resources.Load("Tilemap/SarcomaParent"), null) as GameObject;
+
+        point.name = "SarcomaParent";
+    }
+    //吐细胞
+    public void UnitCellGun()
+    {
+        GameObject point = Instantiate(Resources.Load("Tilemap/CellGun"), null) as GameObject;
+
+        point.name = "CellGun";
+    }
+    public void UnitMedulla()
+    {
+        GameObject point = Instantiate(Resources.Load("Tilemap/MedullaParent"), null) as GameObject;
+
+        point.name = "Medulla";
+    }
     //检测位置是否合理
     IEnumerator UpdatePosition()
     {
         Transform player = GameObject.Find("Player").transform;
         player.position = sdata.savePoint;
-        Debug.Log(player.position);
         yield return new WaitForSeconds(0.01f);
         StopCoroutine(UpdatePosition());
     }

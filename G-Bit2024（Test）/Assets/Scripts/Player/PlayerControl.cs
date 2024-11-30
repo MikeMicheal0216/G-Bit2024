@@ -123,22 +123,22 @@ public class PlayerControl : MonoBehaviour
 
     }
     //普通跳(二段跳)
-    public void Jump(Vector2 direction)
-    {
-        rig.velocity = new Vector2(rig.velocity.x, 0);
+    //public void Jump(Vector2 direction)
+    //{
+    //    rig.velocity = new Vector2(rig.velocity.x, 0);
 
-        rig.AddForce(direction * 10f, ForceMode2D.Impulse);
+    //    rig.AddForce(direction * 10f, ForceMode2D.Impulse);
 
-        jump_Num++;
-    }
+    //    jump_Num++;
+    //}
     //墙跳
     public void WallJump()
     {
         StartCoroutine(DisMove());
 
         Vector2 dir = isLeftWall ? Vector2.right : Vector2.left;
-        
-        Jump(Vector2.up+dir);
+
+        //Jump(Vector2.up+dir);
 
 
     }
@@ -155,12 +155,12 @@ public class PlayerControl : MonoBehaviour
         }
     }
     //(每帧)
-    public void Movement()
-    {
-        float playerInput = Input.GetAxis("Horizontal");
+    //public void Movement()
+    //{
+    //    float playerInput = Input.GetAxis("Horizontal");
 
-        rig.velocity = new Vector2(playerInput * 5f, rig.velocity.y);
-    }
+    //    rig.velocity = new Vector2(playerInput * 5f, rig.velocity.y);
+    //}
     // 如果玩家接触到地面，重置跳跃和冲刺次数
     private void OnCollisionStay2D(Collision2D collision)
     {

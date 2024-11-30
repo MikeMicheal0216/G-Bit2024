@@ -21,12 +21,14 @@ public class SaveManager : MonoBehaviour
         public bool Dash2_A = false;        //二段冲刺
 
         public List<int> collectedLightPoints;      //光点收集列表
+        public List<int> Medullacollection;     //髓质收集列表
         //音频数据（待完成）
     }
-    Save_Data save_D=new Save_Data();
+    
     private void Awake()
     {
         instance = this;
+        Save_Data save_D=new Save_Data();
     }
     //找json（没有就new一个）
     public Save_Data GetData()
@@ -78,6 +80,12 @@ public class SaveManager : MonoBehaviour
     {
         Save_Data data = GetData();
         data.collectedLightPoints.Add(lightId);
+        SaveDataSystem.SaveByJson("data_json", data);
+    }
+    public void UpdateMedullaList(int medullaId)
+    {
+        Save_Data data = GetData();
+        data.Medullacollection.Add(medullaId);
         SaveDataSystem.SaveByJson("data_json", data);
     }
     public void SaveAudio(Save_Data save_Data)
